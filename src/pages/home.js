@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="content home">
       <div className="heading">
-        Hi, i am <span className="name">Khine Kyaw Tun</span>,
+        Hi, I'm <span className="name">Khine Kyaw Tun</span>,
         <p className="occupation">a Full-stack Developer</p>
       </div>
       <Link to="/v1/work" className="btn home_page_btn">
