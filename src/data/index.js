@@ -8,14 +8,14 @@ import portfolioImg from "../images/portfolio.png";
 export const experienceList = [
   {
     company: "UMG Myanmar",
-    position: "Python Engineer",
+    position: "Python Developer",
     start: "Dec 2021",
     end: "June 2022",
   },
   {
-    company: "LazySoft",
+    company: "Upwork",
     position: "Freelance Developer",
-    start: "Jan 2020",
+    start: "Jan 2021",
     end: "present",
   },
 ];
@@ -29,11 +29,6 @@ export const projectsList = [
         name: "github",
         icon: <GithubIcon />,
         url: "https://github.com/khinekyaw/istagram",
-      },
-      {
-        name: "live demo",
-        icon: <LinkIcon />,
-        url: "",
       },
     ],
     tech: ["React JS", "Redux", "Django", "Django-rest-framework"],
@@ -60,6 +55,11 @@ export const projectsList = [
         name: "github",
         icon: <GithubIcon />,
         url: "https://github.com/khinekyaw/zee-ecommerce-site-client",
+      },
+      {
+        name: "live demo",
+        icon: <LinkIcon />,
+        url: "https://khinekyaw.github.io/v1/",
       },
     ],
     tech: ["React JS"],

@@ -8,7 +8,10 @@ export default function Contact() {
   return (
     <div className="content contact">
       <h2>Let's Work Together</h2>
-      <a className="btn mail_btn" href="mailto:khinekyaw.ai@gmail.com">
+      <a
+        className="btn hover_glass mail_btn"
+        href="mailto:khinekyaw.ai@gmail.com"
+      >
         <MailIcon />
         Drop me a line
       </a>

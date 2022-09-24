@@ -14,7 +14,9 @@ function Li(props) {
 
   return (
     <li>
-      <NavLink {...Props}>{props.icon}</NavLink>
+      <NavLink {...Props} className="hover_glass">
+        {props.icon}
+      </NavLink>
       <p className="nav_link_text">{props.children}</p>
     </li>
   );

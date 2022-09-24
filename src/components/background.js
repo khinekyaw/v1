@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 
 import { getRandomArbitrary } from "../utils";
 
@@ -20,7 +20,7 @@ export default function Background() {
                     : "#EC9EDF"
                   : "#ffffff",
               opacity: getRandomArbitrary(0.2, 0.6),
-              transform: `scale(${getRandomArbitrary(0.92, 1.08)})`,
+              transform: `scale(${getRandomArbitrary(0.8, 1.1)}) rotate(45deg)`,
               animationDelay: getRandomArbitrary(0, 1.5) + "s",
               animationPlayState: Math.random() > 0.5 ? "paused" : "running",
             };
