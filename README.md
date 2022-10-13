@@ -1,6 +1,6 @@
 # v1
 
-My personal website built with React.
+First iteration of my personal website built with React.
 
 ## Getting Started
 
