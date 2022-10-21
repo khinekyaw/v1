@@ -26,7 +26,6 @@
   --nav-link-rs: 56.56px;
   --nav-link-rsh: calc(var(--nav-link-rs) / 2);
   --nav-link-marg: 12px;
-  /* --nav-link-pad: calc(var(--nav-link-rs) - var(--nav-link-s)); */
   --logo-s: calc(var(--header-h) - calc(var(--header-pad) * 2));
   --animation-dm: 300ms;
   --animation-dl: 600ms;
@@ -582,6 +581,11 @@ a svg {
 }
 
 @media only screen and (max-width: 768px) {
+  :root {
+    --header-h: 92px;
+    --header-pad: 22px;
+  }
+
   body {
     font-size: 12px;
   }
