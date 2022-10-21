@@ -10,11 +10,11 @@
   --c-text-tertiary: rgb(37, 41, 66);
 
   /* font-size */
-  --fs-xl: 3.16rem;
-  --fs-l: 2rem;
-  --fs-m: 1.4rem;
-  --fs-r: 1rem;
-  --fs-s: 0.82rem;
+  --fs-xl: 3.16em;
+  --fs-l: 2em;
+  --fs-m: 1.4em;
+  --fs-r: 1em;
+  --fs-s: 0.82em;
 
   --header-h: 110px;
   --header-pad: 32px;
@@ -43,6 +43,7 @@ body {
   color: var(--c-text-primary);
   background-color: var(--c-background);
   font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100vh;
@@ -578,4 +579,25 @@ a svg {
   100% {
     transform: translate(0, -100px);
   }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 12px;
+  }
+  nav {
+    display: none;
+  }
+  .content {
+    padding: var(--header-h) var(--header-pad);
+  }
+  .home {
+    padding-top: 0;
+  }
+
+  /* temp */
+  .background {
+    display: none;
+  }
+
 }
