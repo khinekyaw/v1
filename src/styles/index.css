@@ -288,19 +288,22 @@ nav li a {
   stroke: var(--c-text-tertiary);
 }
 
-.job_position {
+.exp_list_item {
   position: relative;
   font-size: var(--fs-m);
   font-weight: 200;
   padding: 24px;
-  margin-bottom: 40px;
   width: 100%;
-  max-width: 430px;
+  margin-bottom: 40px;
   animation: fadein var(--animation-dl) ease-in-out;
-
 }
 
-.job_position::after {
+.job_position {
+  width: 100%;
+  max-width: 430px;
+}
+
+.exp_list_item::after {
   content: '';
   position: absolute;
   top: 0;
@@ -312,7 +315,7 @@ nav li a {
   border-image: linear-gradient(to right, var(--c-text-tertiary), #ffffff00) 1 stretch;
 }
 
-.job_position span {
+.exp_list_item span {
   position: absolute;
   left: 0;
   width: var(--list-item-icon-s);
@@ -320,17 +323,17 @@ nav li a {
   border: var(--list-item-bs) solid var(--c-text-tertiary);
 }
 
-.job_position span:nth-of-type(1) {
+.exp_list_item span:nth-of-type(1) {
   top: 0;
   transform: translate(-50%, -50%) rotate(45deg);
 }
 
-.job_position span:nth-of-type(2) {
+.exp_list_item span:nth-of-type(2) {
   bottom: 0;
   transform: translate(-50%, 50%) rotate(45deg);
 }
 
-.job_position div {
+.exp_list_item div {
   position: absolute;
   border: none;
   border-left: var(--list-item-bs) solid var(--c-text-tertiary);
@@ -339,16 +342,16 @@ nav li a {
   top: 0;
 }
 
-.job_position a {
+.exp_list_item a {
   cursor: pointer;
   color: var(--c-primary);
 }
 
-.job_position p {
+.exp_list_item p {
   margin-bottom: 8px;
 }
 
-.job_position i {
+.exp_list_item i {
   font-size: var(--fs-s);
   letter-spacing: 0.28rem;
 }
@@ -389,9 +392,10 @@ nav li a {
   left: 0;
   z-index: -1;
   height: 100%;
+  width: 100%;
 }
 
-.project_bg .job_position {
+.project_bg .exp_list_item {
   height: 100%;
 }
 
@@ -618,11 +622,6 @@ a svg {
 
   .project_tech {
     display: none;
-  }
-
-  .project_img_wrapper {
-    width: 140px;
-    min-width: 140px;
   }
 
   .project_header {

@@ -1,6 +1,6 @@
 export default function Position({ company, position, start, end }) {
   return (
-    <div className="job_position">
+    <div className="exp_list_item job_position">
       <span></span>
       <span></span>
       <div></div>

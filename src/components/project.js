@@ -1,7 +1,7 @@
 export default function Project(props) {
-  const { name, imageUrl, tech, links } = props;
+  const { name, imageUrl, tech, links } = props
 
-  const wrapperStyle = { animationDelay: props.index * 0.3 + "s" };
+  const wrapperStyle = { animationDelay: props.index * 0.3 + 's' }
 
   const linksEl = links.map((i, idx) => (
     <a
@@ -9,13 +9,13 @@ export default function Project(props) {
       href={i.url}
       className="icon_link"
       aria-label={i.name}
-      target={"_blank"}
+      target={'_blank'}
     >
       {i.icon}
     </a>
-  ));
+  ))
 
-  const techEl = tech.map((i) => <li key={i}>{i}</li>);
+  const techEl = tech.map(i => <li key={i}>{i}</li>)
 
   return (
     <div className="project_wrapper" style={wrapperStyle}>
@@ -27,7 +27,7 @@ export default function Project(props) {
         </div>
       </div>
       <div className="project_img_wrapper">
-        <img src={imageUrl} alt={"Project " + name}></img>
+        <img src={imageUrl} alt={'Project ' + name}></img>
       </div>
       <div className="project_info">
         <div className="project_header">
@@ -37,5 +37,5 @@ export default function Project(props) {
         <ul className="project_tech">{techEl}</ul>
       </div>
     </div>
-  );
+  )
 }
