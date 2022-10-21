@@ -528,12 +528,7 @@ a svg {
 
 .bg_abs_layer_stars {
   position: absolute;
-  width: var(--bg-star-w);
-  height: var(--bg-star-w);
-  bottom: calc(var(--bg-star-w) / -2);
-  right: calc(var(--bg-star-w) / -2);
-  animation: rotate 800s linear infinite;
-  /* filter: blur(1px); */
+  animation: rotate 400s linear infinite;
 }
 
 .bg_layer_stars {
@@ -600,8 +595,8 @@ a svg {
   }
 
   /* temp */
-  .background {
+  /* .background {
     display: none;
-  }
+  } */
 
 }
