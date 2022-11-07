@@ -5,6 +5,12 @@ import istagramImg from '../images/istagram.png'
 import zeeImg from '../images/zee.png'
 import portfolioImg from '../images/portfolio.png'
 import mernShopImg from '../images/mern-shop.png'
+import memoryImg from '../images/memory-game.png'
+import passwordImg from '../images/password-gen.png'
+import tttImg from '../images/ttt.png'
+import autoImg from '../images/autoencoder.png'
+import flackImg from '../images/flack.png'
+import snakeImg from '../images/snake.png'
 
 export const experienceList = [
   {
@@ -65,7 +71,7 @@ export const projectsList = [
         url: 'https://github.com/khinekyaw/istagram',
       },
     ],
-    tech: ['React JS', 'Redux', 'Django', 'Django-rest-framework'],
+    tech: ['Django', 'Django-rest-framework', 'React JS', 'Redux'],
     imageUrl: istagramImg,
   },
   {
@@ -79,5 +85,77 @@ export const projectsList = [
     ],
     tech: ['React JS'],
     imageUrl: zeeImg,
+  },
+  {
+    name: 'Memory Game',
+    links: [
+      {
+        name: 'github',
+        icon: <GithubIcon />,
+        url: 'https://github.com/khinekyaw/react-memory-game',
+      },
+    ],
+    tech: ['ReactJS'],
+    imageUrl: memoryImg,
+  },
+  {
+    name: 'Password Generator',
+    links: [
+      {
+        name: 'github',
+        icon: <GithubIcon />,
+        url: 'https://github.com/khinekyaw/react-memory-game',
+      },
+    ],
+    tech: ['Django', 'HTML', 'CSS'],
+    imageUrl: passwordImg,
+  },
+  {
+    name: 'Snake React Native',
+    links: [
+      {
+        name: 'github',
+        icon: <GithubIcon />,
+        url: 'https://github.com/khinekyaw/snake-rnge',
+      },
+    ],
+    tech: ['React', 'React Native', 'react-native-game-engine'],
+    imageUrl: snakeImg,
+  },
+  {
+    name: 'Autoencoders',
+    links: [
+      {
+        name: 'github',
+        icon: <GithubIcon />,
+        url: 'https://github.com/khinekyaw/Autoencoders',
+      },
+    ],
+    tech: ['Python', 'Numpy', 'Keras', 'Neural Networks'],
+    imageUrl: autoImg,
+  },
+  {
+    name: 'Flack - Slack Clone',
+    links: [
+      {
+        name: 'github',
+        icon: <GithubIcon />,
+        url: 'https://github.com/khinekyaw/Flack',
+      },
+    ],
+    tech: ['Python', 'Socket', 'JavaScript'],
+    imageUrl: flackImg,
+  },
+  {
+    name: 'Tic Tac Toe',
+    links: [
+      {
+        name: 'github',
+        icon: <GithubIcon />,
+        url: 'https://github.com/khinekyaw/tic-tac-toe-python-tkinter',
+      },
+    ],
+    tech: ['Python', 'Tkinter'],
+    imageUrl: tttImg,
   },
 ]
