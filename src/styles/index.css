@@ -4,6 +4,7 @@
   --c-primary: #7C6BE9;
   --c-secondary: #d792cc;
   --c-background: rgb(6, 15, 38);
+  --c-background-secondary:rgb(6, 15, 38);
   --c-text-primary-lighter: rgb(201, 205, 231);
   --c-text-primary: rgb(180, 185, 221);
   --c-text-secondary: rgb(113, 116, 151);
@@ -376,7 +377,12 @@ nav li a {
   height: 136px;
   width: 168px;
   min-width: 168px;
-  background-color: #171045;
+  background-color: var(--c-background-secondary);
+  transition: var(--animation-dxl);
+}
+
+.project_img_wrapper.hide {
+  opacity: 0;
 }
 
 .project_wrapper img {
@@ -384,11 +390,11 @@ nav li a {
   width: 100%;
   object-fit: cover;
   opacity: 0.6;
-  transition: opacity var(--animation-dm);
+  transition: var(--animation-dm);
 }
 
 .project_wrapper:hover .project_img_wrapper img {
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .project_bg {

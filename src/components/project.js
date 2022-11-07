@@ -1,5 +1,10 @@
+import { useState } from 'react'
+
 export default function Project(props) {
   const { name, imageUrl, tech, links } = props
+  const [imageLoaded, setImageLoaded] = useState(false)
+  const imgWrapperClass = ['project_img_wrapper']
+  if (!imageLoaded) imgWrapperClass.push('hide')
 
   const wrapperStyle = { animationDelay: props.index * 0.3 + 's' }
 
@@ -10,6 +15,7 @@ export default function Project(props) {
       className="icon_link"
       aria-label={i.name}
       target={'_blank'}
+      rel="noopener noreferrer"
     >
       {i.icon}
     </a>
@@ -26,8 +32,12 @@ export default function Project(props) {
           <div></div>
         </div>
       </div>
-      <div className="project_img_wrapper">
-        <img src={imageUrl} alt={'Project ' + name}></img>
+      <div className={imgWrapperClass.join(' ')}>
+        <img
+          src={imageUrl}
+          alt={'Project ' + name}
+          onLoad={() => setImageLoaded(true)}
+        ></img>
       </div>
       <div className="project_info">
         <div className="project_header">
