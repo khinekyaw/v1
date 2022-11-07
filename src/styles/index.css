@@ -378,10 +378,9 @@ nav li a {
   width: 168px;
   min-width: 168px;
   background-color: var(--c-background-secondary);
-  transition: var(--animation-dxl);
 }
 
-.project_img_wrapper.hide {
+.project_img_wrapper.hide img {
   opacity: 0;
 }
 
@@ -395,6 +394,10 @@ nav li a {
 
 .project_wrapper:hover .project_img_wrapper img {
   opacity: 0.9;
+}
+
+.project_wrapper:hover .project_img_wrapper.hide img {
+  opacity: 0;
 }
 
 .project_bg {
