@@ -34,7 +34,7 @@ export const projectsList = [
       {
         name: 'github',
         icon: <GithubIcon />,
-        url: 'https://github.com/khinekyaw/istagram',
+        url: 'https://github.com/khinekyaw/mern-shop',
       },
       {
         name: 'live demo',
@@ -51,7 +51,7 @@ export const projectsList = [
       {
         name: 'github',
         icon: <GithubIcon />,
-        url: 'https://github.com/khinekyaw/zee-ecommerce-site-client',
+        url: 'https://github.com/khinekyaw/v1',
       },
       {
         name: 'live demo',
@@ -104,7 +104,7 @@ export const projectsList = [
       {
         name: 'github',
         icon: <GithubIcon />,
-        url: 'https://github.com/khinekyaw/react-memory-game',
+        url: 'https://github.com/khinekyaw/django3-password-generator',
       },
     ],
     tech: ['Django', 'HTML', 'CSS'],
