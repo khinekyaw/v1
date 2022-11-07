@@ -5,7 +5,7 @@ export default function Position({ company, position, start, end }) {
       <span></span>
       <div></div>
       <p>
-        {position} <a>@ {company}</a>
+        {position} <a> {company ? `@ ${company}` : null}</a>
       </p>
       <i>
         {start} - {end}

@@ -1,68 +1,83 @@
-import GithubIcon from "../components/icons/github";
-import LinkIcon from "../components/icons/link";
+import GithubIcon from '../components/icons/github'
+import LinkIcon from '../components/icons/link'
 
-import istagramImg from "../images/istagram.png";
-import zeeImg from "../images/zee.png";
-import portfolioImg from "../images/portfolio.png";
+import istagramImg from '../images/istagram.png'
+import zeeImg from '../images/zee.png'
+import portfolioImg from '../images/portfolio.png'
+import mernShopImg from '../images/mern-shop.png'
 
 export const experienceList = [
   {
-    company: "UMG Myanmar",
-    position: "Python Developer",
-    start: "Dec 2021",
-    end: "June 2022",
+    company: 'UMG Myanmar',
+    position: 'Python Developer',
+    start: 'Dec 2021',
+    end: 'June 2022',
   },
   {
-    company: "Upwork",
-    position: "Freelance Developer",
-    start: "Jan 2021",
-    end: "present",
+    company: '',
+    position: 'Freelance Developer',
+    start: 'May 2020',
+    end: 'Nov 2020',
   },
-];
+]
 
 export const projectsList = [
   {
-    id: 1,
-    name: "Istagram",
+    name: 'MERN Shop',
     links: [
       {
-        name: "github",
+        name: 'github',
         icon: <GithubIcon />,
-        url: "https://github.com/khinekyaw/istagram",
+        url: 'https://github.com/khinekyaw/istagram',
+      },
+      {
+        name: 'live demo',
+        icon: <LinkIcon />,
+        url: 'https://centaurium-shop.herokuapp.com/',
       },
     ],
-    tech: ["React JS", "Redux", "Django", "Django-rest-framework"],
+    tech: ['Node', 'Express', 'MongoDB', 'React', 'Redux', 'Tailwind'],
+    imageUrl: mernShopImg,
+  },
+  {
+    name: 'Khine Kyaw Tun',
+    links: [
+      {
+        name: 'github',
+        icon: <GithubIcon />,
+        url: 'https://github.com/khinekyaw/zee-ecommerce-site-client',
+      },
+      {
+        name: 'live demo',
+        icon: <LinkIcon />,
+        url: 'https://khinekyaw.github.io/v1/',
+      },
+    ],
+    tech: ['React JS'],
+    imageUrl: portfolioImg,
+  },
+  {
+    name: 'Istagram',
+    links: [
+      {
+        name: 'github',
+        icon: <GithubIcon />,
+        url: 'https://github.com/khinekyaw/istagram',
+      },
+    ],
+    tech: ['React JS', 'Redux', 'Django', 'Django-rest-framework'],
     imageUrl: istagramImg,
   },
   {
-    id: 2,
-    name: "Zee E-commerce",
+    name: 'Zee E-commerce',
     links: [
       {
-        name: "github",
+        name: 'github',
         icon: <GithubIcon />,
-        url: "https://github.com/khinekyaw/zee-ecommerce-site-client",
+        url: 'https://github.com/khinekyaw/zee-ecommerce-site-client',
       },
     ],
-    tech: ["React JS"],
+    tech: ['React JS'],
     imageUrl: zeeImg,
   },
-  {
-    id: 3,
-    name: "Khine Kyaw Tun",
-    links: [
-      {
-        name: "github",
-        icon: <GithubIcon />,
-        url: "https://github.com/khinekyaw/zee-ecommerce-site-client",
-      },
-      {
-        name: "live demo",
-        icon: <LinkIcon />,
-        url: "https://khinekyaw.github.io/v1/",
-      },
-    ],
-    tech: ["React JS"],
-    imageUrl: portfolioImg,
-  },
-];
+]
