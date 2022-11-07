@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react'
 
-import LinkedinIcon from "../components/icons/linkedin";
-import GithubIcon from "../components/icons/github";
-import MailIcon from "../components/icons/mail";
+import LinkedinIcon from '../components/icons/linkedin'
+import GithubIcon from '../components/icons/github'
+import MailIcon from '../components/icons/mail'
 
 export default function Contact() {
   return (
@@ -10,7 +10,7 @@ export default function Contact() {
       <h2>Let's Work Together</h2>
       <a
         className="btn hover_glass mail_btn"
-        href="mailto:khinekyaw.ai@gmail.com"
+        href="mailto:thekhinekyaw@gmail.com"
       >
         <MailIcon />
         Drop me a line
@@ -20,7 +20,7 @@ export default function Contact() {
           className="icon_link"
           href="https://www.linkedin.com/in/khine-kyaw-tun-b68455178/"
           aria-label="LinkedIn"
-          target={"_blank"}
+          target={'_blank'}
         >
           <LinkedinIcon />
         </a>
@@ -28,11 +28,11 @@ export default function Contact() {
           className="icon_link"
           href="https://github.com/khinekyaw"
           aria-label="Github"
-          target={"_blank"}
+          target={'_blank'}
         >
           <GithubIcon />
         </a>
       </div>
     </div>
-  );
+  )
 }

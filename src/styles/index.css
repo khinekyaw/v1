@@ -278,6 +278,11 @@ nav li a {
   animation: fadein var(--animation-dl) ease-in-out;
 }
 
+.title {
+  display: flex;
+  align-items: center;
+}
+
 .title_line {
   height: 24px;
 }
@@ -636,5 +641,18 @@ a svg {
   .title_line {
     height: 16px;
   }
+}
 
+.error_page {
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #7C6BE9; */
+}
+
+.error_page h1 {
+  font-size: var(--fs-xl);
+  margin-bottom: 4px;
 }
