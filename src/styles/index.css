@@ -419,6 +419,7 @@ nav li a {
 
 .project_title {
   font-size: var(--fs-m);
+  text-align: center;
 }
 
 .project_tech {

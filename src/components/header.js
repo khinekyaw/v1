@@ -5,9 +5,9 @@ import LogoIcon from '../components/icons/logo'
 import Titleline from '../components/icons/titleline'
 
 const pageTitles = {
-  '/v1/experience': "Where I've Worked",
-  '/v1/work': 'Projects',
-  '/v1/contact': 'Contact Me',
+  '/experience': "Where I've Worked",
+  '/work': 'Projects',
+  '/contact': 'Contact Me',
 }
 
 export default function Header() {
