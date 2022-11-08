@@ -21,6 +21,7 @@ export default function Contact() {
           href="https://www.linkedin.com/in/khine-kyaw-tun-b68455178/"
           aria-label="LinkedIn"
           target={'_blank'}
+          rel="noopener noreferrer"
         >
           <LinkedinIcon />
         </a>
@@ -29,6 +30,7 @@ export default function Contact() {
           href="https://github.com/khinekyaw"
           aria-label="Github"
           target={'_blank'}
+          rel="noopener noreferrer"
         >
           <GithubIcon />
         </a>

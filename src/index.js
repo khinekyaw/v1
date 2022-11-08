@@ -1,6 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import {
+  createBrowserRouter,
+  createHashRouter,
+  RouterProvider,
+} from 'react-router-dom'
 import './styles/index.css'
 
 import Root from './pages/root'
@@ -10,9 +14,9 @@ import Experience from './pages/experience'
 import Work from './pages/work'
 import Contact from './pages/contact'
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
-    path: 'v1',
+    path: '/',
     element: <Root />,
     errorElement: <ErrorPage />,
     children: [

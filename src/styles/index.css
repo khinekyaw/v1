@@ -4,7 +4,6 @@
   --c-primary: #7C6BE9;
   --c-secondary: #d792cc;
   --c-background: rgb(6, 15, 38);
-  --c-background-secondary:rgb(6, 15, 38);
   --c-text-primary-lighter: rgb(201, 205, 231);
   --c-text-primary: rgb(180, 185, 221);
   --c-text-secondary: rgb(113, 116, 151);
@@ -377,7 +376,7 @@ nav li a {
   height: 136px;
   width: 168px;
   min-width: 168px;
-  background-color: var(--c-background-secondary);
+  background-color: rgba(10, 12, 46, 0.6);
 }
 
 .project_img_wrapper.hide img {

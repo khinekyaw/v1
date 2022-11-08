@@ -1,16 +1,16 @@
-import React from "react";
+import React from 'react'
 
-import { NavLink } from "react-router-dom";
-import HomeIcon from "./icons/home";
-import BriefcaseIcon from "./icons/briefcase";
-import CodeIcon from "./icons/code";
-import EmailIcon from "./icons/email";
+import { NavLink } from 'react-router-dom'
+import HomeIcon from './icons/home'
+import BriefcaseIcon from './icons/briefcase'
+import CodeIcon from './icons/code'
+import EmailIcon from './icons/email'
 
 function Li(props) {
-  const Props = { ...props };
+  const Props = { ...props }
 
-  delete Props.children;
-  delete Props.icon;
+  delete Props.children
+  delete Props.icon
 
   return (
     <li>
@@ -19,7 +19,7 @@ function Li(props) {
       </NavLink>
       <p className="nav_link_text">{props.children}</p>
     </li>
-  );
+  )
 }
 
 export default function Nav() {
@@ -40,5 +40,5 @@ export default function Nav() {
         </Li>
       </ul>
     </nav>
-  );
+  )
 }
