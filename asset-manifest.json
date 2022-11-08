@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/v1/static/css/main.a8ea13b3.css",
-    "main.js": "/v1/static/js/main.6abfe003.js",
+    "main.css": "/v1/static/css/main.eb05a375.css",
+    "main.js": "/v1/static/js/main.0a318a27.js",
     "static/media/zee.png": "/v1/static/media/zee.173702453b2fb85e4ae1.png",
     "static/media/mern-shop.png": "/v1/static/media/mern-shop.8f22a0572d9a4713f833.png",
     "static/media/istagram.png": "/v1/static/media/istagram.27be050d5e01f17c8d01.png",
     "static/media/portfolio.png": "/v1/static/media/portfolio.d02f171effcbb1347b96.png",
     "static/media/autoencoder.png": "/v1/static/media/autoencoder.af5813ed195ba5093843.png",
     "index.html": "/v1/index.html",
-    "main.a8ea13b3.css.map": "/v1/static/css/main.a8ea13b3.css.map",
-    "main.6abfe003.js.map": "/v1/static/js/main.6abfe003.js.map"
+    "main.eb05a375.css.map": "/v1/static/css/main.eb05a375.css.map",
+    "main.0a318a27.js.map": "/v1/static/js/main.0a318a27.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8ea13b3.css",
-    "static/js/main.6abfe003.js"
+    "static/css/main.eb05a375.css",
+    "static/js/main.0a318a27.js"
   ]
 }
