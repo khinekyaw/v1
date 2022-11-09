@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/v1/static/css/main.eb05a375.css",
-    "main.js": "/v1/static/js/main.0a318a27.js",
-    "static/media/zee.png": "/v1/static/media/zee.173702453b2fb85e4ae1.png",
-    "static/media/mern-shop.png": "/v1/static/media/mern-shop.8f22a0572d9a4713f833.png",
-    "static/media/istagram.png": "/v1/static/media/istagram.27be050d5e01f17c8d01.png",
-    "static/media/portfolio.png": "/v1/static/media/portfolio.d02f171effcbb1347b96.png",
+    "main.js": "/v1/static/js/main.8abdab4a.js",
+    "static/media/mern-shop.png": "/v1/static/media/mern-shop.da67fb98a1969799b293.png",
+    "static/media/zee.png": "/v1/static/media/zee.a1db44cf33c642b0e151.png",
+    "static/media/istagram.png": "/v1/static/media/istagram.108b718ee62826c9d12d.png",
+    "static/media/portfolio.png": "/v1/static/media/portfolio.b61fdd3b23a105b32130.png",
     "static/media/autoencoder.png": "/v1/static/media/autoencoder.af5813ed195ba5093843.png",
     "index.html": "/v1/index.html",
     "main.eb05a375.css.map": "/v1/static/css/main.eb05a375.css.map",
-    "main.0a318a27.js.map": "/v1/static/js/main.0a318a27.js.map"
+    "main.8abdab4a.js.map": "/v1/static/js/main.8abdab4a.js.map"
   },
   "entrypoints": [
     "static/css/main.eb05a375.css",
-    "static/js/main.0a318a27.js"
+    "static/js/main.8abdab4a.js"
   ]
 }
